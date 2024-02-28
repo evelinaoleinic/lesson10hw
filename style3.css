@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    
-    
+   
 }
 .i {
     padding: 16px;
@@ -13,25 +12,25 @@ body {
     width: 100vw;
     display: grid;
     gap: 10px;
-    grid-template-rows: 100px calc(100%-220px);
+    grid-template-rows: 100px calc(100vh-220px) 100px;
     grid-template-areas: 
     'header header header'
     'sidebar content content'
     'footer footer footer';
 
 }
-.header {
+.headerP {
     grid-area: header;
    
 }
-.sidebar {
+.sidebarP {
     grid-area: sidebar;
     
 }
-.content {
+.contentP {
     grid-area: content;
 }
-.footer {
+.footerP {
   
     grid-area: footer;
     text-align: center;
@@ -47,20 +46,25 @@ body {
     
 }
 
-.header1 {
+.navig {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
+    font-size: 1.5rem;
+    
 
 }
 .sidebarpos {
     display: grid;
     justify-content: space-between;
     height: 100%;
+    font-size: 2rem;
 }
 .footerpos {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    font-size: 1.5rem;
+    align-content: center;
+    
 
 }
