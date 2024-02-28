@@ -32,6 +32,9 @@ body {
 } */
 
 .box {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    height: 100vh;
    width: 100vw;
    background-image: url('https://carteirafinanca.com/wp-content/uploads/2023/08/Abstract-Art.jpg');
