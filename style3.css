@@ -36,16 +36,29 @@ body {
     grid-area: footer;
     text-align: center;
     justify-content: center;
-    align-items: center;
-
-    
+    align-items: center; 
 }
 .input {
+    margin-top: 40px;
     padding: 10px;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
 }
 
 .header1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.sidebarpos {
+    display: grid;
+    justify-content: space-between;
+    height: 100%;
+}
+.footerpos {
     display: flex;
     justify-content: space-between;
     width: 100%;
