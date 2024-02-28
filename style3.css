@@ -36,14 +36,13 @@ body {
     grid-area: footer;
     text-align: center;
     justify-content: center;
-    align-items: center;
-
-    
+    align-items: center; 
 }
 .input {
     margin-top: 40px;
     padding: 10px;
     display: flex;
+    justify-content: space-between;
     flex-wrap: nowrap;
     
 }
