@@ -41,11 +41,25 @@ body {
     
 }
 .input {
+    margin-top: 40px;
     padding: 10px;
     display: flex;
+    flex-wrap: nowrap;
+    
 }
 
 .header1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.sidebarpos {
+    display: grid;
+    justify-content: space-between;
+    height: 100%;
+}
+.footerpos {
     display: flex;
     justify-content: space-between;
     width: 100%;
