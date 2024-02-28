@@ -42,5 +42,12 @@ body {
 }
 .input {
     padding: 10px;
+    display: flex;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 
 }
